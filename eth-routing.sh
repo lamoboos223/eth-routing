@@ -36,6 +36,9 @@ read x
 echo "* What is the Subnet Mask for eth3? (Use ipconfig to get it)"
 read y
 z=0
+
+echo "Enter q to quit"
+
 while [ $z != 'q' ] 
 do 
 echo "* What is the ip address you with to route to? (Use ipconfig to get it)"
