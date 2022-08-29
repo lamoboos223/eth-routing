@@ -41,7 +41,7 @@ echo "Enter q to quit"
 
 while [ $z != 'q' ] 
 do 
-echo "* What is the ip address you with to route to? (Use ipconfig to get it)"
+echo "* What is the ip address you with to route to?"
 read z
 route add $z MASK $y $x -p
 
